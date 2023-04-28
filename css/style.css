@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
 * {
   margin: 0;
   font-family: "Poppins";
   font-style: "normal";
 }
+
 .header {
   height: 100vh;
   width: 100%;
@@ -266,6 +269,7 @@
   margin-left: 25%;
   background: rgba(240, 126, 4, 0.1);
   margin-top: 50px;
+  align-items: center;
 }
 .search {
   background: #d9d9d9;
@@ -310,8 +314,9 @@ footer h1 {
   font-weight: 900;
   font-size: 36px;
   line-height: 44px;
+  padding-top: 50px;
 }
 
 footer p{
-  margin-top: 50px;
+  padding-top: 20px;
 }
